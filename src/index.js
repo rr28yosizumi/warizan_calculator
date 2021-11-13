@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 // import App from './App';
 import { createStore } from 'redux';
@@ -11,9 +12,11 @@ import reportWebVitals from './reportWebVitals';
 const store = createStore(reducer);
 
 ReactDOM.render(
-  <Provider store ={store} >
-    <CalculatorContainer/>
-  </Provider>,
+  <Router basename={process.env.PUBLIC_URL}>
+    <Provider store ={store} >
+      <CalculatorContainer/>
+    </Provider>
+   </Router>,
   document.getElementById('root')
 );
 
