@@ -1,0 +1,10 @@
+.selectdialog-main{
+    margin:0 auto;
+    display:table;
+    height: 100%;
+}
+.selectdialog-inner{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}

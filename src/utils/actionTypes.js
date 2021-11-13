@@ -1,0 +1,9 @@
+export const INPUT_NUMBER = 'INPUT_NUMBER';
+export const PLUS_ANYNUMBER='PLUS_ANYNUMBER';
+export const PLUS = 'PLUS';
+export const DIVISION = 'DIVISION'
+export const CLEAR = 'CLEAR';
+export const UNDO = 'UNDO';
+export const ALL_NUMBER ='ALL_NUMBER';
+export const MODALCLOSE = 'MODALCLOSE';
+export const NOTHING ='NOTHING';
